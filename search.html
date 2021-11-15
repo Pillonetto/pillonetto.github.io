@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+{% extends 'base.html' %}
+
+{% block title %}
+    Search
+{% endblock %}
+
+{% block pages %}
+
+<li class="nav-item active">
+    <a class="nav-link" href="images.html">Image Search</a>
+</li>
+<li class="nav-item active">
+    <a class="nav-link" href="adv.html">Advanced Search</a>
+</li>
+
+{% endblock %}
+
+{% block body %}
+
+<div class="searchbar">
+    <form action="https://google.com/search">
+        <input type="text" name="q">
+        <input type="submit" value="Google Search">
+    </form>
+</div>
+
+{% endblock %}
+
+
+</html>
