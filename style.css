@@ -1,8 +1,9 @@
 #logo
 {
-    display: flex;
+    display: block;
     margin: 0 auto 0 auto;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+
+    max-width: 50%;
+    max-height: 50%;
 }
